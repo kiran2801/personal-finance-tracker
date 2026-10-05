@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Finance Tracker</title>
+  <meta name="description" content="A simple personal finance tracker for recording and organizing expenses through WhatsApp.">
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Inter, Arial, sans-serif; background: #f6f7fb; color: #172033; line-height: 1.6; }
+    .wrap { max-width: 900px; margin: auto; padding: 24px; }
+    header { padding: 72px 0 42px; }
+    .badge { display: inline-block; padding: 6px 12px; border-radius: 999px; background: #e9eefc; color: #2949a8; font-size: 14px; font-weight: 600; }
+    h1 { font-size: clamp(38px, 7vw, 64px); line-height: 1.05; margin: 18px 0; }
+    h2 { margin-top: 0; }
+    .lead { font-size: 20px; max-width: 680px; color: #536078; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin: 28px 0; }
+    .card { background: white; border: 1px solid #e3e6ee; border-radius: 16px; padding: 24px; box-shadow: 0 5px 20px rgba(20,30,60,.05); }
+    footer { padding: 35px 0 60px; color: #68738a; font-size: 14px; }
+    a { color: #2949a8; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <span class="badge">Personal Finance Project</span>
+      <h1>Personal Finance Tracker</h1>
+      <p class="lead">
+        A simple personal finance tool designed to make expense tracking easier
+        through WhatsApp and automated categorization.
+      </p>
+    </header>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Track expenses</h2>
+        <p>Record everyday expenses using simple natural-language messages.</p>
+      </article>
+      <article class="card">
+        <h2>Organize automatically</h2>
+        <p>Expenses can be categorized and stored for easier budgeting and review.</p>
+      </article>
+      <article class="card">
+        <h2>Built for personal use</h2>
+        <p>This project is currently being developed and tested as a personal finance tool.</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>About this project</h2>
+      <p>
+        Personal Finance Tracker is a small software project for experimenting
+        with conversational expense tracking, data organization, and automation.
+        It is not a bank, financial institution, payment service, or investment advisory service.
+      </p>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2>Privacy</h2>
+      <p>
+        The project is currently intended for personal testing. Data is processed
+        only for the purpose of providing the expense-tracking functionality.
+        This page does not collect payments or sell personal financial information.
+      </p>
+    </section>
+
+    <footer>
+      <p>Personal Finance Tracker · Project website</p>
+    </footer>
+  </main>
+</body>
+</html>
